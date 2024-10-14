@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import { useFormik } from "formik";
 import StepTwo from "../components/StepTwo";
 import StepOne from "../components/StepOne";
 

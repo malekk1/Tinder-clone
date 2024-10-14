@@ -1,12 +1,20 @@
 "use client";
 
 import { createContext, useEffect, useReducer, useState } from "react";
-
-const INITIAL_STATE = {
-  user: JSON.parse(localStorage.getItem("user")) || null,
-  loading: false,
-  error: null,
-};
+let INITIAL_STATE = {};
+if (typeof window !== "undefined") {
+  INITIAL_STATE = {
+    user: JSON.parse(localStorage.getItem("user")) || null,
+    loading: false,
+    error: null,
+  };
+} else {
+  INITIAL_STATE = {
+    user: null,
+    loading: false,
+    error: null,
+  };
+}
 
 export const AuthContext = createContext(INITIAL_STATE);
 

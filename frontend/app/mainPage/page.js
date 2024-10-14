@@ -35,7 +35,7 @@ const MainPage = () => {
   }, []);
 
   return (
-    <>
+    <div>
       {user && (
         <div className="flex flex-row flex-wrap h-screen">
           <NavBar setClickedUser={setClickedUser} />
@@ -57,7 +57,7 @@ const MainPage = () => {
           )}
         </div>
       )}
-    </>
+    </div>
   );
 };
 

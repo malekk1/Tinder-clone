@@ -32,7 +32,9 @@ const MenuList = () => {
         <li className="hover:cursor-pointer hover:bg-gray-50">Mój Profil</li>
         <li
           className="hover:cursor-pointer hover:bg-gray-50"
-          onClick={() => router.push("/mainPage/settings")}
+          onClick={() => {
+            router.push("/mainPage/settings");
+          }}
         >
           Edytuj Profil
         </li>
