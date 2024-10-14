@@ -24,7 +24,7 @@ Welcome to the Tinder Clone App! This README will guide you through the setup, f
 
 ## Introduction
 
-The Tinder Clone App is a mobile application that replicates the core functionalities of the popular dating app, Tinder. Users can create profiles, browse through potential matches, and interact with other users.
+The Tinder Clone App is a web application that replicates the core functionalities of the popular dating app, Tinder. Users can create profiles, browse through potential matches, and interact with other users.
 
 ## Features
 
