@@ -22,7 +22,7 @@ const leftBar = ({
   }, [user]);
 
   return (
-    <div className="w-1/3 h-[calc(100vh-5em)] flex flex-col border-r-2 border-gray-300 shadow-md">
+    <div className="w-1/3 h-[calc(100vh-5em)]">
       <div className="left-buttons-container">
         <button
           className={view === "matches" ? "active" : "left-buttons"}

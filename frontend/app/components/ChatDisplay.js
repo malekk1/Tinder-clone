@@ -87,7 +87,7 @@ const ChatDisplay = ({
     }
   };
   return (
-    <div className="w-2/3 h-[calc(100%-4rem)] border-l-gray-500">
+    <div className="w-2/3 h-[calc(100%-4rem)] ">
       <div className="chat-info">
         <div>
           <img

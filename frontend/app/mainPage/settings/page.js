@@ -1,6 +1,6 @@
 "use client";
 
-import React, { use, useEffect } from "react";
+import React, { useEffect } from "react";
 import { useContext } from "react";
 import { AuthContext } from "@/app/components/AuthProvider";
 import axios from "axios";
@@ -82,7 +82,7 @@ const Settings = () => {
   });
 
   return (
-    <div>
+    <>
       {user && (
         <div className="edit-page">
           <div className="edit-container">
@@ -236,7 +236,7 @@ const Settings = () => {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 

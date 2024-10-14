@@ -83,10 +83,12 @@ const TinderCard = () => {
             </div>
             <div className="info">
               <div className="name">
-                {foundedUser?.first_name}
+                {`${foundedUser?.first_name}  `}
+
                 {currentDate.getFullYear() -
                   new Date(foundedUser?.birth_date).getFullYear()}
               </div>
+              <div></div>
 
               <div className="description">{foundedUser?.description}</div>
             </div>

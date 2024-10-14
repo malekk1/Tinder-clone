@@ -216,7 +216,7 @@
   height: 72%;
   padding-right: 2em;
   padding-left: 2em;
-  
+  border-left: 2px solid lightgray;
   overflow-y:auto;
 }
 
@@ -273,6 +273,7 @@
     background-color: #ffffff;
     gap: 2em;
     border-top: 1px solid lightgray;
+    border-left: 2px solid lightgray;
     textarea {
       height: 100%;
       width: 50%;
@@ -305,6 +306,7 @@
   border-radius: var(--border-radius); 
   margin-top: 5em;
   form{
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -360,7 +362,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 100%;
+  height: 70%;
   button{
     width: 60%;
       height: 2em;
@@ -383,6 +385,9 @@
 
 .main{
   background: rgb(233,86,111);
+  
+  border-radius: 25px;
+
   background: linear-gradient(90deg, rgba(233,86,111,1) 7%, rgba(237,105,102,1) 100%);
   .container{
     border-radius: 15px;
@@ -402,6 +407,7 @@
       .name{
         font-size: 2em;
         font-weight: bolder;
+        
       }
     }
   }
@@ -415,6 +421,7 @@
   width: 100%;
   padding-left: 45%;
   border-bottom: 2px solid lightgray;
+  border-left: 2px solid lightgray;
   h1{
     font-size: 1em;
     font-weight: bolder;
@@ -425,18 +432,21 @@
 }
 
 .left-buttons-container{
-  
+  padding-top: 2px;
+  border-radius: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
+    
     button{
       width: 50%;
       height: 2em;
+      border-radius: 25px;
      
       font-weight: bolder;
-      border: black 1px solid;
+      border: lightgray 2px solid;
       color: rgb(233,86,111);
       color: linear-gradient(90deg, rgba(233,86,111,1) 7%, rgba(237,105,102,1) 100%);
       &:hover {
